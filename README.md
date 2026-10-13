@@ -6,7 +6,7 @@
 
 # 
 
-# This project focuses on analyzing e-commerce data to understand payment trends, customer satisfaction, product pricing, and delivery performance. It uses Microsoft Excel, Power Query, MySQL, Power BI, and Tableau to prepare data, perform analysis, and develop dashboards for presenting business insights.
+# This project analyzes e-commerce data to understand payment patterns, customer satisfaction, product pricing, and delivery performance. It uses Microsoft Excel, Power Query, MySQL, Power BI, and Tableau to prepare data, perform analysis, and develop dashboards for presenting business insights.
 
 # 
 
@@ -32,7 +32,7 @@
 
 # \* Create dashboards to explore e-commerce metrics and trends.
 
-# \* Present the analysis and recommendations through a project presentation.
+# \* Present analytical findings and recommendations.
 
 # 
 
@@ -114,7 +114,7 @@
 
 # 
 
-# The Tableau dashboard supports the visual exploration of e-commerce data through geographic analysis, trend exploration, and performance visualizations.
+# The Tableau dashboard supports visual exploration of e-commerce data through geographic analysis, trend exploration, and performance visualizations.
 
 # 
 
@@ -156,13 +156,9 @@
 
 # ecommerce-analytics/
 
-# │
-
 # ├── Excel/
 
 # │   └── E-Commerce dashboard files
-
-# │
 
 # ├── SQL/
 
@@ -170,25 +166,17 @@
 
 # │   └── 02\_All\_Reguiements.sql
 
-# │
-
 # ├── Power-BI/
 
 # │   └── Power BI dashboard files
-
-# │
 
 # ├── Tableau/
 
 # │   └── Tableau dashboard files
 
-# │
-
 # ├── Presentation/
 
 # │   └── Project presentation
-
-# │
 
 # └── README.md
 
