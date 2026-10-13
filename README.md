@@ -4,7 +4,7 @@
 
 This project focuses on analyzing the Olist e-commerce dataset to understand payment patterns, customer satisfaction, delivery performance, product pricing, and seller sales.
 
-The project uses Microsoft Excel, Power Query, MySQL, Power BI, and Tableau to clean, analyze, and visualize e-commerce data through SQL queries, interactive dashboards, and business insights.
+The project uses Microsoft Excel, MySQL, Power BI, and Tableau to clean, analyze, and visualize e-commerce data through SQL queries, interactive dashboards, and business insights.
 
 ## Project Objectives
 
