@@ -2,85 +2,88 @@
 
 ## Project Overview
 
-This project analyzes e-commerce data to understand payment patterns, customer satisfaction, product pricing, and delivery performance. It uses Microsoft Excel, Power Query, MySQL, Power BI, and Tableau to prepare data, perform analysis, and develop dashboards for presenting business insights.
+This project focuses on analyzing the Olist e-commerce dataset to understand payment patterns, customer satisfaction, delivery performance, product pricing, and seller sales.
 
-The project demonstrates practical data analytics skills through data transformation, SQL analysis, dashboard development, and business reporting.
+The project uses Microsoft Excel, Power Query, MySQL, Power BI, and Tableau to clean, analyze, and visualize e-commerce data through SQL queries, interactive dashboards, and business insights.
 
 ## Project Objectives
 
-* Analyze payment patterns across weekdays and weekends.
-* Examine customer review scores and payment methods.
-* Evaluate delivery performance for the Pet Shop product category.
-* Compare average payment value and product price for customers in São Paulo.
-* Analyze the relationship between shipping duration and customer satisfaction.
-* Examine seller state-wise sales performance.
-* Create dashboards to explore e-commerce metrics and trends.
-* Present analytical findings and recommendations.
+- Analyze weekday and weekend payment patterns.
+- Examine customer review scores and payment methods.
+- Evaluate average delivery time for the Pet Shop category.
+- Analyze average payment value and product price for customers in São Paulo.
+- Understand the relationship between shipping duration and customer satisfaction.
+- Analyze seller state-wise sales performance.
+- Create interactive dashboards to communicate findings and support data-driven decisions.
 
 ## Tools and Technologies
 
-* **Microsoft Excel** – Data analysis, pivot tables, and dashboard creation.
-* **Power Query** – Data cleaning, transformation, and preparation.
-* **MySQL** – Database setup, SQL queries, and data analysis.
-* **Microsoft Power BI** – Interactive dashboards and drill-through analysis.
-* **Tableau** – Geographic visualization, trend analysis, and dashboard development.
-* **Microsoft PowerPoint** – Project presentation and reporting.
+- **Microsoft Excel:** Data analysis, pivot tables, and interactive dashboards.
+- **Power Query:** Data cleaning and transformation.
+- **MySQL:** Database management and SQL-based analysis.
+- **Microsoft Power BI:** Interactive dashboards and drill-through analysis.
+- **Tableau:** Data visualization and trend exploration.
+- **Microsoft PowerPoint:** Project presentation and communication of findings.
 
 ## Project Components
 
 ### 1. Excel Dashboard
 
-The Excel dashboard uses pivot tables and interactive slicers to explore e-commerce data and business metrics.
+The Excel dashboard presents e-commerce analysis through charts, pivot tables, and interactive slicers.
 
-* **E-Commerce Olist Store Dashboard** – Presents e-commerce analysis through visualizations and interactive filters.
+**Dashboard Preview**
+
+![Excel Dashboard](Screenshots/Excel-Dashboard.png)
 
 ### 2. SQL Analysis
 
-MySQL is used to set up the database and perform queries to analyze e-commerce data and address the project's business requirements.
+MySQL was used to prepare the database and analyze payment patterns, customer reviews, delivery performance, product pricing, payment values, and seller sales.
 
-**SQL files:**
+**SQL Files**
 
-* `olist_ecommerce_01_Database_Table_Setup.sql` – Database and table setup.
-* `02_All_Reguiements.sql` – SQL queries covering the project's analytical requirements.
-
-**Key activities:**
-
-* Database and table setup.
-* Payment pattern analysis.
-* Customer review and payment method analysis.
-* Delivery performance analysis.
-* Product pricing and payment value analysis.
-* Seller state-wise sales analysis.
+- [Database and Table Setup](SQL/olist_ecommerce_01_Database_Table_Setup.sql)
+- [SQL Analysis Queries](SQL/02_All_Reguiements.sql)
 
 ### 3. Power BI Dashboard
 
-The Power BI dashboard provides interactive visualizations for exploring payment behavior, delivery performance, customer satisfaction, and e-commerce metrics. Drill-through functionality supports further analysis of relevant data.
+The Power BI dashboard presents interactive visualizations for payment behavior, delivery performance, and customer satisfaction. It supports exploration of the data through report interactions and drill-through functionality.
+
+**Dashboard Preview**
+
+![Power BI Dashboard](Screenshots/Power-BI-Dashboard.png)
 
 ### 4. Tableau Dashboard
 
-The Tableau dashboard supports visual exploration of e-commerce data through geographic analysis, trend exploration, and performance visualizations.
+The Tableau dashboard supports geographic analysis, trend exploration, and visual comparison of e-commerce performance.
+
+**Dashboard Preview**
+
+![Tableau Dashboard](Screenshots/Tableau-Dashboard.png)
 
 ### 5. Project Presentation
 
-The PowerPoint presentation summarizes the project requirements, analytical approach, dashboards, key findings, business recommendations, and conclusion.
+The presentation summarizes the project requirements, analytical approach, dashboards, findings, and recommendations.
+
+- [View Project Presentation](Presentation/E-Commerce-Olist%20Store-Analysis-Final%20PPT.pptx)
 
 ## Skills Demonstrated
 
-* Data cleaning and transformation using Power Query.
-* SQL querying, joins, and aggregation.
-* Data preparation and analysis.
-* Payment and customer review analysis.
-* Delivery performance evaluation.
-* KPI analysis and reporting.
-* Dashboard development and data visualization.
-* Business insight communication and presentation.
+- Data cleaning and transformation using Power Query
+- SQL querying and data aggregation
+- E-commerce data analysis
+- Payment pattern analysis
+- Customer review and satisfaction analysis
+- Delivery performance analysis
+- KPI analysis and dashboard development
+- Data visualization using Excel, Power BI, and Tableau
+- Communicating analytical findings and recommendations
 
 ## Repository Structure
 
 ```text
 ecommerce-analytics/
 ├── Excel/
-│   └── E-Commerce dashboard files
+│   └── Excel dashboard files
 ├── SQL/
 │   ├── olist_ecommerce_01_Database_Table_Setup.sql
 │   └── 02_All_Reguiements.sql
@@ -90,9 +93,13 @@ ecommerce-analytics/
 │   └── Tableau dashboard files
 ├── Presentation/
 │   └── Project presentation
+├── Screenshots/
+│   ├── Excel-Dashboard.png
+│   ├── Power-BI-Dashboard.png
+│   └── Tableau-Dashboard.png
 └── README.md
 ```
 
 ## Conclusion
 
-This project demonstrates the use of Excel, Power Query, MySQL, Power BI, and Tableau to analyze e-commerce data and communicate business insights. Through data preparation, SQL analysis, and dashboard development, the project examines payment behavior, delivery performance, customer satisfaction, and seller sales patterns to support data-driven decision-making.
+This project demonstrates the use of Excel, Power Query, MySQL, Power BI, and Tableau to analyze e-commerce data. It showcases practical skills in data preparation, SQL analysis, payment behavior, delivery performance, customer satisfaction, dashboard development, and communicating business insights to support data-driven decision-making.
